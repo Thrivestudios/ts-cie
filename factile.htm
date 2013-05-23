@@ -1,0 +1,555 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Sparksgrove - CIE - Factiles</title>
+	
+	<!-- jQuery -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	
+	<!-- jQuery UI -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>	
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/ui-lightness/jquery-ui.css" type="text/css" media="all" />
+	
+	<!-- factile plugin -->
+	<script type="text/javascript" src="js/factile.js"></script>
+	<script type="text/javascript" src="js/cie.js"></script>
+	
+	<link href="css/master.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="content-wrapper">
+		<div class="column col1of5 left-col">
+			<img src="images/att-logo.png" />
+			<h1>Navigation</h1>
+		</div>
+		
+		<div class="column col4of4">
+			<div class="header-wrapper">
+				<div class="utility-navigation">
+					<span class="nav-item">Hi John Doe</span>
+					<a href="#" class="nav-item">Manage Account</a>
+					<a href="#" class="nav-item">Help</a>
+					<a href="#" class="nav-item">Sign Out</a>
+				</div>
+				<div class="brand-insights-wrapper">
+					<div class="brand-insights-header">
+						<a href="#">Brand Insights</a>
+					</div>
+					<div class="brand-insights-body">
+						<div class="brand-insight">
+							<span class="title">NPS</span>
+							<span class="value high">86</span>
+						</div>
+						<div class="brand-insight">
+							<span class="title">Consideration</span>
+							<span class="value low">64</span>
+						</div>
+						<div class="brand-insight">
+							<span class="title">Favorability</span>
+							<span class="value mid">72</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="body-wrapper">
+			
+				<!--
+				factile specs
+					header:		text only
+					hero:		none
+					abstract:	author image
+								publish date
+								author
+					body:		text only				
+				-->
+				<div class="factile">
+					<div class="factile-header">
+						<h1>Day in the Life<br />-2012 Q1</h1>
+					</div>
+					<div class="factile-category mobile"></div>
+					
+					<div class="factile-abstract">
+						<div class="abstract-image">
+							<img src="images/factiles/jane-smith.jpg" />
+						</div>
+						<dl class="abstract-info">
+							<dt>Published:</dt><dd>Sept 5, 2012</dd>
+							<dt>Author:</dt><dd>Jane Smith</dd>
+						</dl>
+					</div>
+					
+					<div class="factile-body">
+						<p>Samsung leads with 25% overall share among recently acquired devices; strongest presence is with T-mobile at 39% share.<br />Apple continued on a solid upward trend, passing Nokia to move into #3 position at a 13% share</p>
+					</div>
+				</div>
+				
+				<!--
+				factile specs
+					header:		text only
+					hero:		none
+					abstract:	no abstract
+					body:		text and image				
+				-->
+				<div class="factile">
+					<div class="factile-header">
+						<h1>"It's What They Do"</h1>
+					</div>
+					
+					<div class="factile-category misc"></div>
+					
+					<div class="factile-body">
+						<p>The explosion of apps is bringing new and interesting uses of our network to consumers. Digital Heroism – the “better versions of ourselves” that are made possible by immediate access to anything we need – is a key trend we are monitoring to strengthen the AT&T Brand.</p>
+						<img src="images/factiles/digital-heroism.jpg" />
+					</div>
+				</div>
+				
+				<!--
+				factile specs
+					header:		text and image
+					hero:		none
+					abstract:	no abstract
+					body:		text and image				
+				-->
+				<div class="factile">
+					<div class="factile-header">
+						<h1>iPhone Drives Highest Data Consumption</h1>
+						<div class="header-image">
+							<img src="images/factiles/wireless-logo.gif" />
+						</div>
+					</div>
+					
+					<div class="factile-category retail"></div>
+					
+					<div class="factile-body">
+						<p>Heavy Data Users on iPhone are the biggest consumers of wireless data. Our Heavy Data Users consider their use to be typical, and rarely consider steps to manage their use of the network.</p>
+						<img src="images/factiles/battery-life.jpg" />
+					</div>
+				</div>
+				
+				<!--
+				factile specs
+					header:		text only
+					hero:		image
+					abstract:	no abstract
+					body:		text and image				
+				-->
+				<div class="factile">
+					<div class="factile-header">
+						<h1>An Expert You Should Know</h1>
+					</div>
+					
+					<div class="factile-category strategy"></div>
+					
+					<div class="factile-hero">
+						<img src="images/factiles/an-expert.jpg" />
+					</div>
+					
+					<div class="factile-body">				
+						<p>John Doe<br />Executive Director, Product Marketing</p>
+						<p>John shares your interest in digital marketing and has viewed your workspace "Fall Youth Programs.”</p>
+					</div>
+				</div>
+				
+				<!-- mini factile row 1 -->
+				<!--
+				<div class="mini-factile">
+					<div class="mini-factile-avatar">
+						<img src="images/factiles/jane-smith.jpg" />
+					</div>				
+					<div class="mini-factile-content">
+						<strong>Day in the Life</strong>
+						<span>Jane Smith</span>
+						Director Marketing
+					</div>
+				</div>
+				
+				<div class="mini-factile">
+					<div class="mini-factile-avatar">
+						<img src="images/factiles/nolan-ryan.jpg" />
+					</div>				
+					<div class="mini-factile-content">
+						<strong>ScoreCard</strong>
+						<span>Nolan Ryan</span>
+						Director, Mobile
+					</div>
+				</div>
+				
+				<div class="mini-factile">
+					<div class="mini-factile-avatar">
+						<img src="images/factiles/michelle-boyd.jpg" />
+					</div>				
+					<div class="mini-factile-content">
+						<strong>Nelson Device Insights</strong>
+						<span>Michelle Boyd</span>
+						Director, Wireless
+					</div>
+				</div>
+				
+				<div class="mini-factile">
+					<div class="mini-factile-avatar">
+						<img src="images/factiles/michelle-reese.jpg" />
+					</div>				
+					<div class="mini-factile-content">
+						<strong>Customer Stories</strong>
+						<span>Michelle Reese</span>
+						Director
+					</div>
+				</div>
+				-->
+				
+				<!-- factile row 2 -->
+				<!--
+				factile specs
+					header:		text only
+					hero:		none
+					abstract:	author image
+								publish date
+								author
+					body:		text and image				
+				-->
+				<div class="factile">
+					<div class="factile-header">
+						<h1>T-Mobile Ads Score</h1>
+					</div>
+					<div class="factile-category competitor"></div>
+					
+					<div class="factile-abstract">
+						<div class="abstract-image">
+							<img src="images/factiles/david-smith.jpg" />
+						</div>
+						<dl class="abstract-info">
+							<dt>Published:</dt><dd>March 5, 2012</dd>
+							<dt>Author:</dt><dd>David Smith</dd>
+						</dl>
+					</div>
+					
+					<div class="factile-body">
+						<p>Nielsen Ad Tracking indicates that T-Mobile held the top two spots and led in both brand and message recall for the most recent reporting period.</p>
+						<img src="images/factiles/tmobile.jpg" />
+					</div>
+				</div>
+				
+				<!--
+				factile specs
+					header:		text and image
+					hero:		image
+					abstract:	no abstract
+					body:		text and image				
+				-->
+				<div class="factile">
+					<div class="factile-header">
+						<h1>U r what u share</h1>
+					</div>
+					
+					<div class="factile-category misc"></div>
+					
+					<div class="factile-hero">
+						<img src="images/factiles/share.jpg" />
+					</div>
+					
+					<div class="factile-body">
+						<p>Millennials today build their identities around the things they share with others. A link, like, post, tweet or check-in is the quickest way to tell the world who you are.</p>
+					</div>
+				</div>
+				
+				<!--
+				factile specs
+					header:		text only
+					hero:		none
+					abstract:	publish date
+								author
+					body:		image
+				-->
+				<div class="factile">
+					<div class="factile-header">
+						<h1>T-Mobile Ads Score</h1>
+					</div>
+					<div class="factile-category uverse"></div>
+					
+					<div class="factile-abstract">
+						<dl class="abstract-info">
+							<dt>Published:</dt><dd>March 5, 2012</dd>
+							<dt>Author:</dt><dd>David Smith</dd>
+						</dl>
+					</div>
+					
+					<div class="factile-body">
+						<img src="images/factiles/kids-activities.jpg" />
+					</div>
+				</div>
+				
+				
+				<!--
+				factile specs
+					header:		text only
+					hero:		none
+					abstract:	no abstract
+					body:		text and image				
+				-->
+				<div class="factile">
+					<div class="factile-header">
+						<h1>“LTE” Fails to Resonate</h1>
+					</div>
+					
+					<div class="factile-category mobility"></div>
+					
+					<div class="factile-body">
+						<p>61% of consumers “Don’t Know” the meaning of LTE, although 27% attributed some positive attribute such as “Fast” or “Latest Technology”. Only 4% recognize LTE to mean Long Term Evolution.</p>
+						<img src="images/factiles/chart.jpg" />
+					</div>
+				</div>
+				
+				
+				<!-- mini factile row 2 -->
+				<!--
+				<div class="mini-factile">
+					<div class="mini-factile-avatar">
+						<img src="images/factiles/michael-bowling.jpg" />
+					</div>				
+					<div class="mini-factile-content">
+						<strong>Weekend Activity</strong>
+						<span>Michael Bowling</span>
+						Director
+					</div>
+				</div>
+				
+				<div class="mini-factile">
+					<div class="mini-factile-avatar">
+						<img src="images/factiles/michelle-reese.jpg" />
+					</div>				
+					<div class="mini-factile-content">
+						<strong>Customer Stories</strong>
+						<span>Michelle Reese</span>
+						Director
+					</div>
+				</div>
+				
+				<div class="mini-factile">
+					<div class="mini-factile-avatar">
+						<img src="images/factiles/nolan-ryan.jpg" />
+					</div>				
+					<div class="mini-factile-content">
+						<strong>ScoreCard</strong>
+						<span>Nolan Ryan</span>
+						Director, Mobile
+					</div>
+				</div>
+				
+				<div class="mini-factile">
+					<div class="mini-factile-avatar">
+						<img src="images/factiles/jane-smith.jpg" />
+					</div>				
+					<div class="mini-factile-content">
+						<strong>Day in the Life</strong>
+						<span>Jane Smith</span>
+						Director Marketing
+					</div>
+				</div>
+				-->
+				
+				<!--
+				factile specs
+					header:		text only
+					hero:		none
+					abstract:	author image
+								publish date
+								author
+					body:		text only				
+				-->
+				<div class="factile">
+					<div class="factile-header">
+						<h1>Day in the Life<br />-2012 Q1</h1>
+					</div>
+					<div class="factile-category mobile"></div>
+					
+					<div class="factile-abstract">
+						<div class="abstract-image">
+							<img src="images/factiles/jane-smith.jpg" />
+						</div>
+						<dl class="abstract-info">
+							<dt>Published:</dt><dd>Sept 5, 2012</dd>
+							<dt>Author:</dt><dd>Jane Smith</dd>
+						</dl>
+					</div>
+					
+					<div class="factile-body">
+						<p>Samsung leads with 25% overall share among recently acquired devices; strongest presence is with T-mobile at 39% share.<br />Apple continued on a solid upward trend, passing Nokia to move into #3 position at a 13% share</p>
+					</div>
+				</div>
+				
+				<!--
+				factile specs
+					header:		text only
+					hero:		none
+					abstract:	no abstract
+					body:		text and image				
+				-->
+				<div class="factile">
+					<div class="factile-header">
+						<h1>"It's What They Do"</h1>
+					</div>
+					
+					<div class="factile-category misc"></div>
+					
+					<div class="factile-body">
+						<p>The explosion of apps is bringing new and interesting uses of our network to consumers. Digital Heroism – the “better versions of ourselves” that are made possible by immediate access to anything we need – is a key trend we are monitoring to strengthen the AT&T Brand.</p>
+						<img src="images/factiles/digital-heroism.jpg" />
+					</div>
+				</div>
+				
+				<!--
+				factile specs
+					header:		text and image
+					hero:		none
+					abstract:	no abstract
+					body:		text and image				
+				-->
+				<div class="factile">
+					<div class="factile-header">
+						<h1>iPhone Drives Highest Data Consumption</h1>
+						<div class="header-image">
+							<img src="images/factiles/wireless-logo.gif" />
+						</div>
+					</div>
+					
+					<div class="factile-category retail"></div>
+					
+					<div class="factile-body">
+						<p>Heavy Data Users on iPhone are the biggest consumers of wireless data. Our Heavy Data Users consider their use to be typical, and rarely consider steps to manage their use of the network.</p>
+						<img src="images/factiles/battery-life.jpg" />
+					</div>
+				</div>
+				
+				<!--
+				factile specs
+					header:		text only
+					hero:		image
+					abstract:	no abstract
+					body:		text and image				
+				-->
+				<div class="factile">
+					<div class="factile-header">
+						<h1>An Expert You Should Know</h1>
+					</div>
+					
+					<div class="factile-category strategy"></div>
+					
+					<div class="factile-hero">
+						<img src="images/factiles/an-expert.jpg" />
+					</div>
+					
+					<div class="factile-body">				
+						<p>John Doe<br />Executive Director, Product Marketing</p>
+						<p>John shares your interest in digital marketing and has viewed your workspace "Fall Youth Programs.”</p>
+					</div>
+				</div>
+				
+				
+				<!-- factile row 2 -->
+				<!--
+				factile specs
+					header:		text only
+					hero:		none
+					abstract:	author image
+								publish date
+								author
+					body:		text and image				
+				-->
+				<div class="factile">
+					<div class="factile-header">
+						<h1>T-Mobile Ads Score</h1>
+					</div>
+					<div class="factile-category competitor"></div>
+					
+					<div class="factile-abstract">
+						<div class="abstract-image">
+							<img src="images/factiles/david-smith.jpg" />
+						</div>
+						<dl class="abstract-info">
+							<dt>Published:</dt><dd>March 5, 2012</dd>
+							<dt>Author:</dt><dd>David Smith</dd>
+						</dl>
+					</div>
+					
+					<div class="factile-body">
+						<p>Nielsen Ad Tracking indicates that T-Mobile held the top two spots and led in both brand and message recall for the most recent reporting period.</p>
+						<img src="images/factiles/tmobile.jpg" />
+					</div>
+				</div>
+				
+				<!--
+				factile specs
+					header:		text and image
+					hero:		image
+					abstract:	no abstract
+					body:		text and image				
+				-->
+				<div class="factile">
+					<div class="factile-header">
+						<h1>U r what u share</h1>
+					</div>
+					
+					<div class="factile-category misc"></div>
+					
+					<div class="factile-hero">
+						<img src="images/factiles/share.jpg" />
+					</div>
+					
+					<div class="factile-body">
+						<p>Millennials today build their identities around the things they share with others. A link, like, post, tweet or check-in is the quickest way to tell the world who you are.</p>
+					</div>
+				</div>
+				
+				<!--
+				factile specs
+					header:		text only
+					hero:		none
+					abstract:	publish date
+								author
+					body:		image
+				-->
+				<div class="factile">
+					<div class="factile-header">
+						<h1>T-Mobile Ads Score</h1>
+					</div>
+					<div class="factile-category uverse"></div>
+					
+					<div class="factile-abstract">
+						<dl class="abstract-info">
+							<dt>Published:</dt><dd>March 5, 2012</dd>
+							<dt>Author:</dt><dd>David Smith</dd>
+						</dl>
+					</div>
+					
+					<div class="factile-body">
+						<img src="images/factiles/kids-activities.jpg" />
+					</div>
+				</div>
+				
+				
+				<!--
+				factile specs
+					header:		text only
+					hero:		none
+					abstract:	no abstract
+					body:		text and image				
+				-->
+				<div class="factile">
+					<div class="factile-header">
+						<h1>“LTE” Fails to Resonate</h1>
+					</div>
+					
+					<div class="factile-category mobility"></div>
+					
+					<div class="factile-body">
+						<p>61% of consumers “Don’t Know” the meaning of LTE, although 27% attributed some positive attribute such as “Fast” or “Latest Technology”. Only 4% recognize LTE to mean Long Term Evolution.</p>
+						<img src="images/factiles/chart.jpg" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

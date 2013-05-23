@@ -1,0 +1,129 @@
+/* CSS Document */
+
+.factile,
+.factile-abstract { font-size:0; }
+
+.factile {
+	background-color: #ffffff;
+	border-bottom:10px solid #f0f0f0;
+	border-right:1px solid #e7e7e7;
+	color:#595d61;
+	display:inline-block;
+	font-family:'clearview', Arial, Helvetica, sans-serif;
+	font-size: 0;
+	height: 266px;
+	overflow:hidden;
+	padding-right:6px;
+	position:relative;
+	width: 195px;
+	vertical-align:top;
+}
+
+.factile .factile-header {
+	height:60px;
+	position:relative;
+}
+
+.factile .factile-header h1 {
+	bottom:0;
+	color:#595d61;
+	font-size:14px;
+	left:0;
+	margin:0 5px 10px;
+	position:absolute;
+	width:165px;
+}
+
+.factile .factile-header .header-image {
+	bottom:0;
+	margin: 0 5px 10px 0;
+	position:absolute;
+	right:0;
+}
+
+.factile .factile-category {
+	height:4px;
+}
+
+.factile .factile-body { font-size:11px; }
+
+.factile-abstract .abstract-image,
+.factile-abstract .abstract-info {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.factile-abstract .abstract-image {
+	height:34px;
+	overflow:hidden;
+	width:34px;
+}
+
+.factile-abstract .abstract-image img { max-width:34px; }
+
+.factile-abstract .abstract-info {
+	font-size:11px;
+	margin:4px 0 0 2px; 
+	width:155px;
+}
+
+.factile-abstract .abstract-info dt {
+	display:inline-block;
+	text-transform:uppercase;
+	margin:0 1px;
+}
+
+.factile-abstract .abstract-info dd {
+	display:inline-block;
+	margin:0 1px;
+}
+
+.factile .factile-body { padding: 4px; }
+.factile .factile-body p { margin:0 0 10px; }
+
+.factile-actions {
+	background-color: rgba(0,0,0,0.75);
+	bottom: 0;
+	display:none;
+	height: 30px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+}
+
+/* mini factile */
+.mini-factile {
+	display: inline-block;
+	font-size: 0;
+	margin: 5px 36px 5px 0;
+	width: 160px;
+}
+
+.mini-factile-avatar {
+	display: inline-block;
+	margin-right: 6px;
+	overflow: hidden;
+	width: 34px;
+}
+
+.mini-factile-content {
+	display: inline-block;
+	font-family:'clearview', Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 12px;
+	width: 120px;
+	vertical-align: top;
+}
+
+.mini-factile-content * {
+	color:#333333;
+	font-size: 12px;
+	line-height: 12px;
+	vertical-align: top;
+}
+
+.mini-factile-content strong {
+	font-family: 'clearview-bold-light', Arial, Helvetica, sans-serif;
+	letter-spacing:-1px;
+}
+.mini-factile-content span { display:block; }

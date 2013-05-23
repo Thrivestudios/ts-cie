@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'clearview-bold-italic-light';
+    src: url('../fonts/clvatt-bold_ital-webfont.eot');
+    src: url('../fonts/clvatt-bold_ital-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/clvatt-bold_ital-webfont.woff') format('woff'),
+         url('../fonts/clvatt-bold_ital-webfont.ttf') format('truetype'),
+         url('../fonts/clvatt-bold_ital-webfont.svg#clearviewatt_ltbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'clearview-bold-light';
+    src: url('../fonts/clvatt-bold-webfont.eot');
+    src: url('../fonts/clvatt-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/clvatt-bold-webfont.woff') format('woff'),
+         url('../fonts/clvatt-bold-webfont.ttf') format('truetype'),
+         url('../fonts/clvatt-bold-webfont.svg#clearviewatt_ltbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'clearview-italic';
+    src: url('../fonts/clvatt-book_ital-webfont.eot');
+    src: url('../fonts/clvatt-book_ital-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/clvatt-book_ital-webfont.woff') format('woff'),
+         url('../fonts/clvatt-book_ital-webfont.ttf') format('truetype'),
+         url('../fonts/clvatt-book_ital-webfont.svg#clearviewattitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'clearview';
+    src: url('../fonts/clvatt-book-webfont.eot');
+    src: url('../fonts/clvatt-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/clvatt-book-webfont.woff') format('woff'),
+         url('../fonts/clvatt-book-webfont.ttf') format('truetype'),
+         url('../fonts/clvatt-book-webfont.svg#clearviewattregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'clearview-italic-light';
+    src: url('../fonts/clvatt-light_ital-webfont.eot');
+    src: url('../fonts/clvatt-light_ital-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/clvatt-light_ital-webfont.woff') format('woff'),
+         url('../fonts/clvatt-light_ital-webfont.ttf') format('truetype'),
+         url('../fonts/clvatt-light_ital-webfont.svg#clearviewattlight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'clearviewatt-light';
+    src: url('../fonts/clvatt-light-webfont.eot');
+    src: url('../fonts/clvatt-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/clvatt-light-webfont.woff') format('woff'),
+         url('../fonts/clvatt-light-webfont.ttf') format('truetype'),
+         url('../fonts/clvatt-light-webfont.svg#clearviewattlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
