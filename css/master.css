@@ -4,6 +4,18 @@
 @import url('media-queries.css');
 
 body { background-color:#f0f0f0; }
+
+h1 {
+	font-family: 'clearview-bold-light';
+	font-size: 16px;
+	margin: 6px;
+}
+
+.logo {
+	margin: 18px 0;
+	text-align: center;
+}
+
 /* header structure */
 .header-wrapper {
 	background:url(../images/header-bg.jpg) top left repeat-x;
@@ -128,10 +140,6 @@ body { background-color:#f0f0f0; }
 .uverse	{ background-color:#fa00a1; }
 .misc	{ background-color:#808080; }
 
-.body-wrapper {
-	margin:0 8px;
-}
-
 /* master button styles */
 .btn {
 	background-color:#444444;
@@ -156,5 +164,7 @@ body { background-color:#f0f0f0; }
 .icon-fav { background-position:-20px 0; }
 .icon-share { background-position:-40px 0; }
 .icon-add { background-position:-60px 0; }
+.icon-expand { background-position:-20px -20px; }
+.icon-collapse { background-position:-40px -20px; }
 
 .no-text { text-indent:-9999em; }
