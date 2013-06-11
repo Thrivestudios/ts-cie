@@ -28,7 +28,6 @@
 				
 				expandIcon.click(function(){
 					var that = $(this).parent();
-					console.log(that);
 					if(that.hasClass('mini')){
 						that.draggable('disable');
 						that.find('.factile-header h1').fadeOut(100, function(){
@@ -52,7 +51,7 @@
 								that.animate({
 									height: 65,
 									width:74,
-									margin:4,
+									margin:2,
 									paddingRight:0
 								}, 100,	function(){
 									that.addClass('mini');

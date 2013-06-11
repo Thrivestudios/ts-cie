@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+	<title>AT&amp;T Explore UI</title>
+	<script type="text/javascript" src="libs/jquery-1.9.0.js"></script>
+	<script type="text/javascript" src="libs/jquery-ui-1.10.0.custom.js"></script>
+
+	<script type="text/javascript" src="libs/d3.v3.js"></script>
+	<script type="text/javascript" src="libs/queue.v1.js"></script>
+
+	<script type="text/javascript" src="libs/lastfm.api.md5.js"></script>
+	<script type="text/javascript" src="libs/lastfm.api.js"></script>
+	<script type="text/javascript" src="libs/lastfm.api.cache.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+	<div id="chart"></div>
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript">
+		var visualExplorer = vex.init('#chart');
+		$(window).resize(function() {
+			visualExplorer.resize();
+		});
+	</script>
+</body>
+</html>

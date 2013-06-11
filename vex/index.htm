@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+	<title>Index</title>
+</head>
+<body>
+	<h1>Index</h1>
+	<dl>
+		<dt><a href="demo01">demo01</a></dt>
+		<dd>Demo of recent data visualization work.</dd>
+
+		<dt><a href="demo02">demo02</a></dt>
+		<dd>Two-column search: query tags on left, result artists on the right. Wires indicate how often the artist is assigned each tag. Artists are assigned a score based on the rank for each tag and sorted descending.</dd>
+
+		<dt><a href="demo03">demo03</a></dt>
+		<dd>Three-column search: query artists on left, query tags center, result artists on the right. Artists on the left populate the query tags with each of their top three tags. All tags are then used to find and rank artists as in demo02.</dd>
+
+		<dt><a href="demo04">demo04</a></dt>
+		<dd>Four-column search: query artists on left, query tags mid-left, result artists mid-right, and cluster tags (result tags) on the right. First two columns work as in demo03. The top tags for each result artist are loaded and the resulting bi-partite graph is clustered using a Markov Chain. Clusters with more than one artist member have their tags added to the fourth column. The green lines indicate cluster membership.</dd>
+
+		<dt><a href="demo05">demo05</a></dt>
+		<dd>Switched to using a home-grown algorithm to cluster the result artists. The algorithm ranks result tags by maximizing the number of related artists and minimizing the number of other tags those artists are related to. This results in much better clustering and allows us to drop result tags which don't help the user narrow their search.</dd>
+
+		<dt><a href="demo06">demo06</a></dt>
+		<dd>Same as demo05 but with the explanatory/debug text removed.</dd>
+
+		<dt><a href="demo07">demo07</a></dt>
+		<dd>Swapped artist and result tag (cluster tag) columns. Query tags are now associated directly with the result tags which can be used to refine the artists on right.</dd>
+
+		<dt><a href="demo08">demo08</a></dt>
+		<dd>Resizes to fit the screen.</dd>
+
+		<dt><a href="demo09">demo09</a></dt>
+		<dd>Added draggable bars to result tags.</dd>
+
+		<dt><a href="demo10">demo10</a></dt>
+		<dd>Swapped the result columns back to artist and then cluster tag as in demo06.</dd>
+
+		<dt><a href="demo11">demo11</a></dt>
+		<dd>Added (temporarily ugly) checkboxes that don't yet operate as expected.</dd>
+
+		<dt><a href="demo12">demo12</a></dt>
+		<dd>Enabling and disabling query tags now reloads result data from the server and rearranges it dynamically.</dd>
+
+		<dt><a href="demo13">demo13</a></dt>
+		<dd>Responsive layout and collapsible columns. Added a header bar.</dd>
+
+		<dt><a href="demo14">demo14</a></dt>
+		<dd>Transitions differentiate between data changes and column changes to improve timing.</dd>
+
+		<dt><a href="demo15">demo15</a></dt>
+		<dd>Query Tags are now draggable. Added sorting.</dd>
+</body>
+</html>

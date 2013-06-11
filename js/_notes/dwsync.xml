@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="cie.js" server="dev.thrive-studios.com/sparksgrove/cie/" local="130138162333400603" remote="130138552200000000" Dst="2" />
-<file name="factile.js" server="dev.thrive-studios.com/sparksgrove/cie/" local="130138163941202564" remote="130138552200000000" Dst="2" />
+<file name="factile.js" server="dev.thrive-studios.com/sparksgrove/cie/" local="130154260723830398" remote="130154168400000000" Dst="2" />
 <file name="jquery.easing.1.3.js" server="dev.thrive-studios.com/sparksgrove/cie/" local="130048738040000000" remote="130138552200000000" Dst="2" />
 <file name="jquery.mCustomScrollbar.min.js" server="dev.thrive-studios.com/sparksgrove/cie/" local="130132875249012492" remote="130138552200000000" Dst="2" />
 <file name="jquery.mousewheel.min.js" server="dev.thrive-studios.com/sparksgrove/cie/" local="130057337520000000" remote="130138552200000000" Dst="2" />
+<file name="jquery.imagesloaded.js" server="dev.thrive-studios.com/sparksgrove/cie/" local="130148511310000000" remote="130148938800000000" Dst="2" />
+<file name="jquery.masonry.min.js" server="dev.thrive-studios.com/sparksgrove/cie/" local="130148511147037645" remote="130148938800000000" Dst="2" />
+<file name="cie.js" server="dev.thrive-studios.com/sparksgrove/cie/" local="130154280356843342" remote="130154172000000000" Dst="2" />
+<file name="prototype.js" server="dev.thrive-studios.com/sparksgrove/cie/" local="130148567105588291" remote="130150737600000000" Dst="2" />
+<file name="jquery.dropkick-1.0.0.js" server="dev.thrive-studios.com/sparksgrove/cie/" local="130153557991336399" remote="130153548000000000" Dst="2" />
+<file name="d3.v3.js" server="dev.thrive-studios.com/sparksgrove/cie/" local="130154278294635391" remote="130154171400000000" Dst="2" />
+<file name="lastfm.api.cache.js" server="dev.thrive-studios.com/sparksgrove/cie/" local="130154278294915407" remote="130154171400000000" Dst="2" />
+<file name="lastfm.api.js" server="dev.thrive-studios.com/sparksgrove/cie/" local="130154278295135419" remote="130154171400000000" Dst="2" />
+<file name="lastfm.api.md5.js" server="dev.thrive-studios.com/sparksgrove/cie/" local="130154278295345431" remote="130154171400000000" Dst="2" />
+<file name="queue.v1.js" server="dev.thrive-studios.com/sparksgrove/cie/" local="130154278295545443" remote="130154171400000000" Dst="2" />
+<file name="script.js" server="dev.thrive-studios.com/sparksgrove/cie/" local="130154286702606299" remote="130154178600000000" Dst="2" />
 </dwsync>

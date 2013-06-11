@@ -8,7 +8,7 @@
 	border-bottom:10px solid #f0f0f0;
 	border-right:1px solid #e7e7e7;
 	color:#595d61;
-	display:inline-block;
+	float:left;
 	font-family:'clearview', Arial, Helvetica, sans-serif;
 	font-size: 0;
 	height: 266px;
@@ -147,7 +147,7 @@
 	cursor: hand;
 	cursor: pointer;
 	height: 65px;
-	margin: 4px;
+	margin: 2px;
 	padding: 0;
 	width: 74px;
 }
@@ -160,6 +160,7 @@
 
 .factile.mini .factile-header h1 {
 	font-size: 11px;
+	font-weight:normal;
 	margin: 5%;
 	width: 90%;
 }
@@ -175,28 +176,29 @@
 
 .scroll-wrapper {
 	border: 1px solid #eeeeee;
-	margin: 5px 1% 5px 0;
+	margin: 5px 0;
 	overflow:auto;
-	padding: 6px 1%;
-	width: 97%;
+	padding: 6px .5%;
 }
 
 #selected-factiles {
-	border: 1px solid #eeeeee;
-	margin:6px 16px;
-	padding:6px;
-	width: 166px; 
+	background-color:#f7f7f7;
+	border: 1px solid #bbbbbb;
+	float:left;
+	margin:0 7px;
+	padding:2px;
+	width: 158px; 
 }
 
 .factile-container * { white-space:normal; }
 .factile-container > span {
-	border: 1px dashed #DDD;
-	color: #CCC;
+	border: 1px dashed #cccccc;
+	color: #aaaaaa;
 	display: inline-block;
 	font-family: 'clearview';
 	font-size: 12px;
-	margin: 4px 4px 5px;
-	padding: 15px 5px;
+	margin: 2px;
+	padding: 15px 5px 16px;
 	text-align: center;
 	text-transform: uppercase;
 	width: 63px;
